@@ -4,52 +4,81 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    [Header("Referencias")]
-    public Animator animator;
+    public float speed = 10.0f;
+
+    public float turnSmoothTime = 0.1f;
+    private float turnSmoothVelocity;
+
+    public float jumpSpeed = 2.0f;
+    public float gravity = 10.0f;
+    private Vector3 jumpForce = Vector3.zero;
+
+    public float coyoteTime = 0.2f;
+    private float coyoteCurrent = 0;
+
+    [Header("Movimiento")]
     public CharacterController controller;
-    
-    [Header("Parametros")]
-    [Range(0,100)] public float walkSpeed = 1.0f;
-    public float rotationSpeed = 1.0f;
-    public float jumpForce = 1.0f;
-    public int maxJumps = 1;
-    public LayerMask groundLayer;
+    public Transform cam;
 
-    private bool grounded;
+    [Header("Animaciones")]
+    public Animator animator;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        // Hide cursor
+        Cursor.visible = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
+        // Get input from keyboard
         var H_axis = Input.GetAxis("Horizontal");
         var V_axis = Input.GetAxis("Vertical");
+        var dir = new Vector3(H_axis, 0, V_axis).normalized;
 
-        var axis = new Vector3(H_axis, 0, V_axis).normalized;
-        if (axis.magnitude >= 0.1f) 
+        // get jump input
+        var jump = Input.GetButtonDown("Jump");
+        if ((controller.isGrounded || coyoteCurrent <= coyoteTime) && jump)
         {
+            // Set jump force
+            jumpForce.y = jumpSpeed;
+
+            // Set animator jump trigger
+            animator.SetTrigger("Jumping");
+        }
+
+        // Set animator grounded parameter
+        animator.SetBool("Grounded", controller.isGrounded);
+
+        coyoteCurrent = 0;
+
+        // Apply gravity
+        if(!controller.isGrounded)
+        {
+            coyoteCurrent += Time.deltaTime;
+
+            jumpForce.y -= gravity * Time.deltaTime;
+        }
+        controller.Move(jumpForce * Time.deltaTime);
+
+        if (dir.magnitude >= 0.1f)
+        {
+            // Set animator running parameter to true
             animator.SetBool("Running", true);
-            animator.SetFloat("Speed", axis.magnitude);
 
-            var speed = (V_axis > 0)? walkSpeed: walkSpeed * 0.5f;
-            controller.Move(speed * Time.deltaTime * axis);
+            // Rotate the character to the direction of movement
+            var targetAngle = (Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg) + cam.eulerAngles.y;
+            var angle = Mathf.SmoothDampAngle(transform.eulerAngles.y,targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-            animator.SetBool("Foward", V_axis > 0);
+            // Move the character
+            var moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            controller.Move(moveDir * speed * Time.deltaTime);
         }
         else
         {
+            // Set animator running parameter to false
             animator.SetBool("Running", false);
-        }
-
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            animator.SetBool("Jump", true);
-            controller.attachedRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }
 }
