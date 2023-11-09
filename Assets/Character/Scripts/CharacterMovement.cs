@@ -53,7 +53,7 @@ public class CharacterMovement : MonoBehaviour
         coyoteCurrent = 0;
 
         // Apply gravity
-        if(!controller.isGrounded)
+        if(!controller.isGrounded) // si no estoy en el suelo
         {
             coyoteCurrent += Time.deltaTime;
 
