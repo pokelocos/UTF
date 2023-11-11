@@ -13,17 +13,10 @@ MonoBehaviour:
   m_Name: Default Material Palette
   m_EditorClassIdentifier: 
   array:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
   - {fileID: 2100000, guid: a20708d7e9d982e4d8e85afd8ae74719, type: 2}
   - {fileID: 2100000, guid: 04c86054fee79ff46917eaee779baaf7, type: 2}
   - {fileID: 2100000, guid: e6ab1ef9b11cc9e49aaf3ab0a2fcb02b, type: 2}
-=======
-  - {fileID: -885574227724733078, guid: e099605437ce7bb47886fe056376cfaf, type: 3}
-  - {fileID: 2100000, guid: e06df914a864a3d4fa1f852ffdf12234, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
->>>>>>> Stashed changes
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

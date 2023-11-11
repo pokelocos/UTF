@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 2c578b8cb72ca0445ac855000bb7565a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 662
+        width: 204
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094b6c9f962caf442813af4028555441
+      internalID: 1214955449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 662
+        width: 204
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b52cd9bfdd405c48908d40e1e23c609
+      internalID: -414967421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_2
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 661
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e21d5208172503469dfc40d785474c2
+      internalID: 2105308476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 661
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ce82f16beb2f3419a1e7b9427e93da
+      internalID: 2118030083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_4
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 661
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0813ab05a847d4b4cae651ecc74185c0
+      internalID: -385188054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_5
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 661
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffd797c5c0089841a5f7335b27365c5
+      internalID: -369316030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 421
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f798588fbd9db66408157701f06b894f
+      internalID: 1034970087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 511
+        width: 89
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2404966fda01247a0dbee9b484c85c
+      internalID: 1865447076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_8
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 512
+        width: 105
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da8e92b61fb86f4eba4318f5dd802f6
+      internalID: -905140405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 512
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8268c1fa2caddb48b4757288096a7a0
+      internalID: 75712667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_10
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 511
+        width: 104
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9762c9bda7bfe141b835c5beb043cea
+      internalID: -1754906638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_11
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 373
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1069e92b1eb153b4e86271e79d3a4ea9
+      internalID: -1754860653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_12
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 373
+        width: 99
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba1962f3da80b74cbd5a73ffa650124
+      internalID: -445308686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_13
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 374
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af841e60be455dd428aa67c0df3e40df
+      internalID: -989012058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_14
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 372
+        width: 68
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fced69eea21b3448d9c1c03408f2c2
+      internalID: 728185721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_15
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 245
+        width: 74
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b25593ffccf544ca374fdc62f98986
+      internalID: 87570486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_16
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 245
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112013f632817c04fb328ee374ed8802
+      internalID: -886463806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_17
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 245
+        width: 74
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462474e5bfa87fb42b9b49cf75bae09a
+      internalID: 1919675658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 245
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ed3d32a6b0f94db4b3a4b5c20a1ce
+      internalID: 2123192862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_19
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 117
+        width: 456
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0beb4b712365a6499062bf91c204b86
+      internalID: -667380286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81807-area-text-button-game-user-interface_20
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 468
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f31558a846e93447ae48f42ed213a2c
+      internalID: -946401664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      81807-area-text-button-game-user-interface_0: 1214955449
+      81807-area-text-button-game-user-interface_1: -414967421
+      81807-area-text-button-game-user-interface_10: -1754906638
+      81807-area-text-button-game-user-interface_11: -1754860653
+      81807-area-text-button-game-user-interface_12: -445308686
+      81807-area-text-button-game-user-interface_13: -989012058
+      81807-area-text-button-game-user-interface_14: 728185721
+      81807-area-text-button-game-user-interface_15: 87570486
+      81807-area-text-button-game-user-interface_16: -886463806
+      81807-area-text-button-game-user-interface_17: 1919675658
+      81807-area-text-button-game-user-interface_18: 2123192862
+      81807-area-text-button-game-user-interface_19: -667380286
+      81807-area-text-button-game-user-interface_2: 2105308476
+      81807-area-text-button-game-user-interface_20: -946401664
+      81807-area-text-button-game-user-interface_3: 2118030083
+      81807-area-text-button-game-user-interface_4: -385188054
+      81807-area-text-button-game-user-interface_5: -369316030
+      81807-area-text-button-game-user-interface_6: 1034970087
+      81807-area-text-button-game-user-interface_7: 1865447076
+      81807-area-text-button-game-user-interface_8: -905140405
+      81807-area-text-button-game-user-interface_9: 75712667
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
