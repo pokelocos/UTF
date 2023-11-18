@@ -19,7 +19,7 @@ public class StatusUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Actualize(status.coins, status.maxHealth);    
+        Actualize(status.health, status.maxHealth);    
     }
 
     public void Actualize(int value, int maxValue)
