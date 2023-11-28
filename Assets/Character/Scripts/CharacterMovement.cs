@@ -50,7 +50,7 @@ public class CharacterMovement : MonoBehaviour
         // Set animator grounded parameter
         animator.SetBool("Grounded", controller.isGrounded);
 
-        coyoteCurrent = 0;
+        //coyoteCurrent = 0;
 
         // Apply gravity
         if(!controller.isGrounded) // si no estoy en el suelo
@@ -59,6 +59,11 @@ public class CharacterMovement : MonoBehaviour
 
             jumpForce.y -= gravity * Time.deltaTime;
         }
+        else
+        {
+            coyoteCurrent = 0;
+        }
+
         controller.Move(jumpForce * Time.deltaTime);
 
         if (dir.magnitude >= 0.1f)

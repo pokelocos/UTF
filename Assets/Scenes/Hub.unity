@@ -8802,7 +8802,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1226740369
 AudioListener:
   m_ObjectHideFlags: 0
@@ -9754,6 +9754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 1012774059604988332, guid: 4babab14cf96062469de0d460d83f808, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6183594134220302634, guid: 4babab14cf96062469de0d460d83f808, type: 3}
       propertyPath: cam
       value: 
@@ -9889,7 +9893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1845962538
 MonoBehaviour:
   m_ObjectHideFlags: 0
