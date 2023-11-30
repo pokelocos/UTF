@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HealZone : MonoBehaviour
 {
+    public AudioClip damegeClip;
+    public AudioSource audioSource;
     private void OnTriggerEnter(Collider other)
     {
         var damageble = other.GetComponent<IDamageble>();
@@ -11,6 +13,7 @@ public class HealZone : MonoBehaviour
         if(damageble != null)
         {
             damageble.Heal(1);
+            audioSource.PlayOneShot(damegeClip);
         }
     }
 }
