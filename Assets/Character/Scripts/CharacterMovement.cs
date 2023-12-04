@@ -16,6 +16,11 @@ public class CharacterMovement : MonoBehaviour
     public float coyoteTime = 0.2f;
     private float coyoteCurrent = 0;
 
+    public AudioSource audioSource;
+    public AudioClip jumpSound;
+
+    public GuardarScriptObj SO;
+
     [Header("Movimiento")]
     public CharacterController controller;
     public Transform cam;
@@ -27,6 +32,8 @@ public class CharacterMovement : MonoBehaviour
     {
         // Hide cursor
         Cursor.visible = false;
+
+        speed = SO.speed;
     }
 
     public void Update()
@@ -40,6 +47,8 @@ public class CharacterMovement : MonoBehaviour
         var jump = Input.GetButtonDown("Jump");
         if ((controller.isGrounded || coyoteCurrent <= coyoteTime) && jump)
         {
+            audioSource.PlayOneShot(jumpSound);
+
             // Set jump force
             jumpForce.y = jumpSpeed;
 

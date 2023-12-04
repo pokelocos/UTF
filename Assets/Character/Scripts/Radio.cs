@@ -17,7 +17,11 @@ public class Radio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
     }
 
     public void PlayRandomSong()

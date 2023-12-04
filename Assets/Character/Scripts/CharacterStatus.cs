@@ -13,6 +13,12 @@ public class CharacterStatus : MonoBehaviour, IDamageble
 
     public Transform lastRespawnPoint;
 
+    public void Start()
+    {
+        coins = PlayerPrefs.GetInt("Coins", 0);
+        Debug.Log("Coins: " + coins);
+    }
+
     public void AddDamage(int damage)
     {
         health -= Mathf.Max(damage, 0);
